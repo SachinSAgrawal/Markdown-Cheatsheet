@@ -27,6 +27,8 @@ New line.
 
 @SachinSAgrawal and other people can be mentioned.
 
+LaTeX: ${-b \pm \sqrt{b^2-4ac} \over 2a}$ 
+
 `Inline code`
 
 ```
@@ -42,6 +44,12 @@ function doSomething() {
   // Write javascript code here
 }
 ```
+
+```diff
+- this code or text is the old version
++ this is what it was changed to
+```
+
 Subscript: H<sub>2</sub>O
 
 Superscript: X<sup>2</sup>
@@ -58,7 +66,13 @@ __Bold text 2__
 
 ~~Strikethrough~~
 
+<ins>Underline</ins>
+
+<samp>Monospaced</samp>
+
 > Blockquote text.
+> > One indent.
+> > > Two indents.
 
 [Link 1](http://example.com)
 
@@ -102,6 +116,8 @@ ___
 | col 2 is      | centered      |      $69 |
 | filler        | text          |       $1 |
 
+<kbd> <br> Button <br> </kbd>
+
 Embed Images:
 
 <img src="https://www.svgrepo.com/show/450156/github.svg" alt="embeddedimage" width="200"/>
@@ -118,4 +134,4 @@ This sentence has a multiline footnote. [^2]
 
 [^1]: This is the footnote.
 [^2]: This footnote
-  is multiple lines.
+  is multiple lines?
