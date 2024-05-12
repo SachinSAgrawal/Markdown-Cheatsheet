@@ -1,7 +1,7 @@
 # Markdown Cheatsheet
 
 ## About
-A cheatsheet for markdown document files and how to format text on them. I created this when I first started using Github a lot more and could never remember how to format anything properly. If you like this repository or found it useful, I would appreciate if you starred it or even shared it with your friends. I don't 
+One of the most extensive cheatsheets for markdown document files and how to format text on them, compiled from multiple sources. I created this when I first started using Github a lot more and could never remember how to format anything properly. If you like this repository or found it useful, I would appreciate if you starred it or even shared it with your friends. I don't 
 
 ## Usage
 Simply check out the [cheats](CHEATS.md) file, and toggle between `Preview` and `Code`! 
