@@ -1,73 +1,23 @@
-<!-- Markdown Cheatsheet -->
+# Markdown Cheatsheet
 
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+## About
+A cheatsheet for markdown document files and how to format text on them.
 
-Normal paragraph text. <br>
-New line.
+## Usage
+Simply check out the [cheats](CHEATS.md) file! 
 
-* List
-* List
-* List
+#### Included
+* Headers
+* Lists
+* Code
+* Formatting
+* Links
+* Checklists
+* Tables
+* ... and more!
 
-- List
-- List
-- List
+## Contributors
+Sachin Agrawal: I'm a self-taught programmer who knows many languages and I'm into app, game, and web development. For more information, check out my website or Github profile. If you would like to contact me, my email is [github@sachin.email](mailto:github@sachin.email).
 
-1. List
-2. List
-3. List
-
-`Inline code`
-
-```
-<!-- Code block -->
-<h1>Sample heading</h1>
-```
-
-    // A sample code block
-    console.log("Sample code block");
-
-```javascript
-function doSomething() {
-  // Write code here
-}
-```
-
-*Italic text 1*
-
-**Bold text 1**
-
-_Italic text 2_
-
-__Bold text 2__
-
-> Blockquote text.
-
-[Link 1](http://example.com)
-
-[Link 2][1]
-
-Horizontal Line 1
-
----
-
-Horizontal Line 2
-
-***
-
-~~Strikethrough~~
-
-- [ ] Incomplete task
-- [x] Completed task
-
-First Header | Second Header
------------- | -------------
-Cell 1 | Cell 2
-Cell 3 | Cell 4
-
-[1]:http://example.com
+## License
+This package is licensed under the [MIT License](LICENSE.txt).
