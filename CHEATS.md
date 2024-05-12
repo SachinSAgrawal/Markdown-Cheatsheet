@@ -1,4 +1,4 @@
-<!-- Comment within Markdown Cheatsheet -->
+<!-- Comment within a markdown file -->
 
 # Heading 1
 ## Heading 2
@@ -117,6 +117,12 @@ ___
 | filler        | text          |       $1 |
 
 <kbd> <br> Button <br> </kbd>
+
+<details>
+  <summary>Collapsible Menu</summary>
+-  Item 1 <br>
+-  Item 2
+</details>
 
 Embed Images:
 
