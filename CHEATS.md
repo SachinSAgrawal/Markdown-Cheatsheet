@@ -1,4 +1,4 @@
-<!-- Markdown Cheatsheet -->
+<!-- Comment within Markdown Cheatsheet -->
 
 # Heading 1
 ## Heading 2
@@ -10,17 +10,22 @@
 Normal paragraph text. <br>
 New line.
 
-* List
-* List
-* List
+* List with *
+* List with *
+  
+- List with -
+- List with -
+  
++ List with +
++ List with +
 
-- List
-- List
-- List
+1. Numbered List
+2. Numbered List
+3. Numbered List
+   - First nested list item
+     - Second nested list item
 
-1. List
-2. List
-3. List
+@SachinSAgrawal and other people can be mentioned.
 
 `Inline code`
 
@@ -34,9 +39,14 @@ New line.
 
 ```javascript
 function doSomething() {
-  // Write code here
+  // Write javascript code here
 }
 ```
+Subscript: H<sub>2</sub>O
+
+Superscript: X<sup>2</sup>
+
+Emojis are supported! :joy:
 
 *Italic text 1*
 
@@ -46,11 +56,15 @@ _Italic text 2_
 
 __Bold text 2__
 
+~~Strikethrough~~
+
 > Blockquote text.
 
 [Link 1](http://example.com)
 
 [Link 2][1]
+
+[1]:http://example.com
 
 Horizontal Line 1
 
@@ -60,14 +74,48 @@ Horizontal Line 2
 
 ***
 
-~~Strikethrough~~
+Horizontal Line 3
+
+___
 
 - [ ] Incomplete task
 - [x] Completed task
 
-First Header | Second Header
------------- | -------------
-Cell 1 | Cell 2
-Cell 3 | Cell 4
+> [!NOTE]
+> Useful information that users should know, even when skimming content.
 
-[1]:http://example.com
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
+
+| Column 1      | Column 2      | Column 3 |
+| ------------- |:-------------:| --------:|
+| col 3 is      | right-aligned |     $420 |
+| col 2 is      | centered      |      $69 |
+| filler        | text          |       $1 |
+
+Embed Images:
+
+<img src="https://www.svgrepo.com/show/450156/github.svg" alt="embeddedimage" width="200"/>
+
+YouTube Videos (sorta):
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=dQw4w9WgXcQ
+" target="_blank"><img src="http://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg" 
+alt="embeddedvideo" width="240" height="180" border="10" /></a>
+
+This sentence has a footnote. [^1]
+
+This sentence has a multiline footnote. [^2]
+
+[^1]: This is the footnote.
+[^2]: This footnote
+  is multiple lines.
